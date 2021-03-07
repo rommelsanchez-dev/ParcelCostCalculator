@@ -6,5 +6,5 @@ import com.mynt.parcel_cost_calculator.dto.VoucherDto;
 
 public interface WeightParcelCalculatorService {
 
-    public ParcelCostDto calculate(ParcelDto parcelDto, VoucherDto voucherDto);
+    ParcelCostDto calculate(ParcelDto parcelDto, VoucherDto voucherDto);
 }

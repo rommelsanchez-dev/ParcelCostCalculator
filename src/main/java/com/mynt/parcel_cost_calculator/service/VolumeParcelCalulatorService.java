@@ -7,5 +7,5 @@ import java.math.BigDecimal;
 
 public interface VolumeParcelCalulatorService {
 
-    public ParcelCostDto calculate(BigDecimal volume, VoucherDto voucherDto);
+    ParcelCostDto calculate(BigDecimal volume, VoucherDto voucherDto);
 }

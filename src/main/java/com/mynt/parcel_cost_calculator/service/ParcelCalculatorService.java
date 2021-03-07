@@ -5,6 +5,6 @@ import com.mynt.parcel_cost_calculator.dto.ParcelDto;
 
 public interface ParcelCalculatorService {
 
-    public ParcelCostDto calculate(ParcelDto parcelDto);
+    ParcelCostDto calculate(ParcelDto parcelDto);
 
 }
